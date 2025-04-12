@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe Page</title>
+</head>
+<body>
+    
+<form action="index.html" method="post">
+    <label for="h">Recipe name</label><br>
+    <input type="text" name="h" id="h" placeholder="Type your recipe name" required><br>
+
+    <label for="ingredients">Ingredients</label><br>
+    <textarea name="ingredients" id="ingredients" placeholder="Type here"></textarea><br>
+
+    <label for="instructions">Cooking Instructions</label><br>
+    <textarea name="cookingInstructions" id="instructions" placeholder="Type the cooking instructions" required></textarea><br>
+
+    <label for="img">Add the image URL</label><br>
+    <input type="file" name="img" id="img" accept="image/*"><br>
+
+    <h1>Recipe Category</h1>
+    <label for="d">Desserts</label><br>
+    <input type="radio" name="meal" id="d" value="De"><br>
+
+    <label for="c">Classic meals</label><br>
+    <input type="radio" name="meal" id="c" value="Cl"><br>
+
+    <label for="s">Snacks</label><br>
+    <input type="radio" name="meal" id="s" value="Sn"><br>
+
+    <label for="a">Appetizers</label><br>
+    <input type="radio" name="meal" id="a" value="Ap"><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html
